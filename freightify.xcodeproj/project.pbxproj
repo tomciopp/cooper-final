@@ -18,10 +18,20 @@
 		8D06952B1673CD6100274052 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D06952A1673CD6100274052 /* Default-568h@2x.png */; };
 		8D06952E1673CD6100274052 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D06952C1673CD6100274052 /* MainStoryboard_iPhone.storyboard */; };
 		8D0695311673CD6100274052 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D06952F1673CD6100274052 /* MainStoryboard_iPad.storyboard */; };
-		8D0695341673CD6100274052 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0695331673CD6100274052 /* ViewController.m */; };
+		8D0695421673CE3400274052 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0695401673CE3400274052 /* SearchViewController.m */; };
+		8D0695431673CE3400274052 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0695411673CE3400274052 /* SearchViewController.xib */; };
+		8D0695471673CE4300274052 /* SearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0695451673CE4300274052 /* SearchResultsViewController.m */; };
+		8D0695481673CE4300274052 /* SearchResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0695461673CE4300274052 /* SearchResultsViewController.xib */; };
+		8D06954B1673CF6E00274052 /* FSWebRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D06954A1673CF6E00274052 /* FSWebRequest.m */; };
+		8DB25FFF167ECB25003243EF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB25FFE167ECB25003243EF /* LoginViewController.m */; };
+		8DB26004167ECC35003243EF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DB26003167ECC35003243EF /* LoginViewController.xib */; };
+		8DB26007167ED005003243EF /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB26006167ED005003243EF /* APIClient.m */; };
+		BA390DC5B7B14A2AA2F1479C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD82F4ABC4F4EAEB5CD1605 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C15AB56A51346E5B9ABB3CC /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		7DD82F4ABC4F4EAEB5CD1605 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D0695101673CD6100274052 /* freightify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = freightify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D0695141673CD6100274052 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8D0695161673CD6100274052 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,8 +47,19 @@
 		8D06952A1673CD6100274052 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8D06952D1673CD6100274052 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		8D0695301673CD6100274052 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		8D0695321673CD6100274052 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8D0695331673CD6100274052 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D06953F1673CE3400274052 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		8D0695401673CE3400274052 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		8D0695411673CE3400274052 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		8D0695441673CE4300274052 /* SearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsViewController.h; sourceTree = "<group>"; };
+		8D0695451673CE4300274052 /* SearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultsViewController.m; sourceTree = "<group>"; };
+		8D0695461673CE4300274052 /* SearchResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultsViewController.xib; sourceTree = "<group>"; };
+		8D0695491673CF6E00274052 /* FSWebRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWebRequest.h; sourceTree = "<group>"; };
+		8D06954A1673CF6E00274052 /* FSWebRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWebRequest.m; sourceTree = "<group>"; };
+		8DB25FFD167ECB25003243EF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8DB25FFE167ECB25003243EF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8DB26003167ECC35003243EF /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		8DB26005167ED005003243EF /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
+		8DB26006167ED005003243EF /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +70,7 @@
 				8D0695151673CD6100274052 /* UIKit.framework in Frameworks */,
 				8D0695171673CD6100274052 /* Foundation.framework in Frameworks */,
 				8D0695191673CD6100274052 /* CoreGraphics.framework in Frameworks */,
+				BA390DC5B7B14A2AA2F1479C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,9 +80,23 @@
 		8D0695051673CD6100274052 = {
 			isa = PBXGroup;
 			children = (
+				8DB26003167ECC35003243EF /* LoginViewController.xib */,
+				8DB25FFD167ECB25003243EF /* LoginViewController.h */,
+				8DB25FFE167ECB25003243EF /* LoginViewController.m */,
+				8DB26005167ED005003243EF /* APIClient.h */,
+				8DB26006167ED005003243EF /* APIClient.m */,
+				8D06953F1673CE3400274052 /* SearchViewController.h */,
+				8D0695401673CE3400274052 /* SearchViewController.m */,
+				8D0695411673CE3400274052 /* SearchViewController.xib */,
+				8D0695441673CE4300274052 /* SearchResultsViewController.h */,
+				8D0695451673CE4300274052 /* SearchResultsViewController.m */,
+				8D0695461673CE4300274052 /* SearchResultsViewController.xib */,
+				8D0695491673CF6E00274052 /* FSWebRequest.h */,
+				8D06954A1673CF6E00274052 /* FSWebRequest.m */,
 				8D06951A1673CD6100274052 /* freightify */,
 				8D0695131673CD6100274052 /* Frameworks */,
 				8D0695111673CD6100274052 /* Products */,
+				5C15AB56A51346E5B9ABB3CC /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +114,7 @@
 				8D0695141673CD6100274052 /* UIKit.framework */,
 				8D0695161673CD6100274052 /* Foundation.framework */,
 				8D0695181673CD6100274052 /* CoreGraphics.framework */,
+				7DD82F4ABC4F4EAEB5CD1605 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -89,8 +126,6 @@
 				8D0695241673CD6100274052 /* AppDelegate.m */,
 				8D06952C1673CD6100274052 /* MainStoryboard_iPhone.storyboard */,
 				8D06952F1673CD6100274052 /* MainStoryboard_iPad.storyboard */,
-				8D0695321673CD6100274052 /* ViewController.h */,
-				8D0695331673CD6100274052 /* ViewController.m */,
 				8D06951B1673CD6100274052 /* Supporting Files */,
 			);
 			path = freightify;
@@ -120,6 +155,7 @@
 				8D06950C1673CD6100274052 /* Sources */,
 				8D06950D1673CD6100274052 /* Frameworks */,
 				8D06950E1673CD6100274052 /* Resources */,
+				F0762D059B8949398DAB34AF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,10 +203,30 @@
 				8D06952B1673CD6100274052 /* Default-568h@2x.png in Resources */,
 				8D06952E1673CD6100274052 /* MainStoryboard_iPhone.storyboard in Resources */,
 				8D0695311673CD6100274052 /* MainStoryboard_iPad.storyboard in Resources */,
+				8D0695431673CE3400274052 /* SearchViewController.xib in Resources */,
+				8D0695481673CE4300274052 /* SearchResultsViewController.xib in Resources */,
+				8DB26004167ECC35003243EF /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F0762D059B8949398DAB34AF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D06950C1673CD6100274052 /* Sources */ = {
@@ -179,7 +235,11 @@
 			files = (
 				8D0695211673CD6100274052 /* main.m in Sources */,
 				8D0695251673CD6100274052 /* AppDelegate.m in Sources */,
-				8D0695341673CD6100274052 /* ViewController.m in Sources */,
+				8D0695421673CE3400274052 /* SearchViewController.m in Sources */,
+				8D0695471673CE4300274052 /* SearchResultsViewController.m in Sources */,
+				8D06954B1673CF6E00274052 /* FSWebRequest.m in Sources */,
+				8DB25FFF167ECB25003243EF /* LoginViewController.m in Sources */,
+				8DB26007167ED005003243EF /* APIClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,22 +327,28 @@
 		};
 		8D0695381673CD6100274052 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C15AB56A51346E5B9ABB3CC /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "freightify/freightify-Prefix.pch";
 				INFOPLIST_FILE = "freightify/freightify-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		8D0695391673CD6100274052 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C15AB56A51346E5B9ABB3CC /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "freightify/freightify-Prefix.pch";
 				INFOPLIST_FILE = "freightify/freightify-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -306,6 +372,7 @@
 				8D0695391673CD6100274052 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
